@@ -55,6 +55,18 @@ python main.py gui
 - 项目只上传源码，不包含你的本地账号数据
 - 本地缓存、备份和打包产物已加入忽略列表
 
+## 打包与 Release
+
+- 本地打包命令：
+
+```powershell
+pyinstaller -F -w -n "Codex切换器" main.py
+```
+
+- 打包后可执行文件位于 `dist/Codex切换器.exe`
+- 仓库已提供 GitHub Actions 工作流：推送 `v*` 标签或手动触发后，会在 Windows 环境自动打包
+- 当通过标签触发时，工作流会把 `dist/Codex切换器.exe` 上传到对应的 GitHub Release
+
 ## 截图与视频
 
 - 预留位置：可在仓库后续补充界面截图和操作视频
