@@ -1,4 +1,5 @@
 # Codex 账号切换器
+<img width="982" height="652" alt="image" src="https://github.com/user-attachments/assets/93b7766f-0ca9-4e9c-9079-9ceeac7d0742" />
 
 一个面向 VS Code Codex 使用场景的本地账号管理工具。
 
