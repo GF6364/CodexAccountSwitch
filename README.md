@@ -67,4 +67,6 @@ pyinstaller -F -w -n "Codex切换器" main.py
 - 打包后可执行文件位于 `dist/Codex切换器.exe`
 - 仓库已提供 GitHub Actions 工作流：推送 `v*` 标签或手动触发后，会在 Windows 环境自动打包
 - 当通过标签触发时，工作流会把 `dist/Codex切换器.exe` 上传到对应的 GitHub Release
-
+  
+## 博客地址
+对应博客地址：[https://blog.mxguanwang.cn:8000/3523.html](https://blog.mxguanwang.cn:8000/3523.html)
