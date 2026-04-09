@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.spec
+auth_store/
+backups/
+build/
+dist/
+switcher_state.json
