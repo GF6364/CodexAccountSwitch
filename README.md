@@ -67,6 +67,3 @@ pyinstaller -F -w -n "Codex切换器" main.py
 - 仓库已提供 GitHub Actions 工作流：推送 `v*` 标签或手动触发后，会在 Windows 环境自动打包
 - 当通过标签触发时，工作流会把 `dist/Codex切换器.exe` 上传到对应的 GitHub Release
 
-## 截图与视频
-
-- 预留位置：可在仓库后续补充界面截图和操作视频
